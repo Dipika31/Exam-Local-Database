@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,14 @@
 		2DC4B80D29E67B8D000F2022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4B80B29E67B8D000F2022 /* Main.storyboard */; };
 		2DC4B80F29E67B8E000F2022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4B80E29E67B8E000F2022 /* Assets.xcassets */; };
 		2DC4B81229E67B8E000F2022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC4B81029E67B8E000F2022 /* LaunchScreen.storyboard */; };
+		2DC4B82529E67C98000F2022 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B81B29E67C98000F2022 /* FMDatabaseAdditions.m */; };
+		2DC4B82629E67C98000F2022 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B81D29E67C98000F2022 /* FMDatabaseQueue.m */; };
+		2DC4B82729E67C98000F2022 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B82129E67C98000F2022 /* FMDatabasePool.m */; };
+		2DC4B82829E67C98000F2022 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B82229E67C98000F2022 /* FMDatabase.m */; };
+		2DC4B82929E67C98000F2022 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B82329E67C98000F2022 /* FMResultSet.m */; };
+		2DC4B82B29E67D1B000F2022 /* fmdb Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B82A29E67D1B000F2022 /* fmdb Helper.swift */; };
+		2DC4B82D29E68829000F2022 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B82C29E68829000F2022 /* ViewController2.swift */; };
+		2DC4B82F29E689D9000F2022 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC4B82E29E689D9000F2022 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,21 @@
 		2DC4B80E29E67B8E000F2022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC4B81129E67B8E000F2022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DC4B81329E67B8E000F2022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC4B81929E67C98000F2022 /* Exam Local Database-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exam Local Database-Bridging-Header.h"; sourceTree = "<group>"; };
+		2DC4B81A29E67C98000F2022 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2DC4B81B29E67C98000F2022 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2DC4B81C29E67C98000F2022 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		2DC4B81D29E67C98000F2022 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		2DC4B81E29E67C98000F2022 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		2DC4B81F29E67C98000F2022 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		2DC4B82029E67C98000F2022 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		2DC4B82129E67C98000F2022 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		2DC4B82229E67C98000F2022 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		2DC4B82329E67C98000F2022 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2DC4B82429E67C98000F2022 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2DC4B82A29E67D1B000F2022 /* fmdb Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fmdb Helper.swift"; sourceTree = "<group>"; };
+		2DC4B82C29E68829000F2022 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		2DC4B82E29E689D9000F2022 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +79,28 @@
 		2DC4B80429E67B8D000F2022 /* Exam Local Database */ = {
 			isa = PBXGroup;
 			children = (
+				2DC4B81E29E67C98000F2022 /* FMDatabase.h */,
+				2DC4B82229E67C98000F2022 /* FMDatabase.m */,
+				2DC4B82429E67C98000F2022 /* FMDatabaseAdditions.h */,
+				2DC4B81B29E67C98000F2022 /* FMDatabaseAdditions.m */,
+				2DC4B81F29E67C98000F2022 /* FMDatabasePool.h */,
+				2DC4B82129E67C98000F2022 /* FMDatabasePool.m */,
+				2DC4B81A29E67C98000F2022 /* FMDatabaseQueue.h */,
+				2DC4B81D29E67C98000F2022 /* FMDatabaseQueue.m */,
+				2DC4B82029E67C98000F2022 /* FMDB.h */,
+				2DC4B81C29E67C98000F2022 /* FMResultSet.h */,
+				2DC4B82329E67C98000F2022 /* FMResultSet.m */,
 				2DC4B80529E67B8D000F2022 /* AppDelegate.swift */,
 				2DC4B80729E67B8D000F2022 /* SceneDelegate.swift */,
 				2DC4B80929E67B8D000F2022 /* ViewController.swift */,
 				2DC4B80B29E67B8D000F2022 /* Main.storyboard */,
+				2DC4B82E29E689D9000F2022 /* MyTableViewCell.swift */,
+				2DC4B82C29E68829000F2022 /* ViewController2.swift */,
 				2DC4B80E29E67B8E000F2022 /* Assets.xcassets */,
 				2DC4B81029E67B8E000F2022 /* LaunchScreen.storyboard */,
 				2DC4B81329E67B8E000F2022 /* Info.plist */,
+				2DC4B81929E67C98000F2022 /* Exam Local Database-Bridging-Header.h */,
+				2DC4B82A29E67D1B000F2022 /* fmdb Helper.swift */,
 			);
 			path = "Exam Local Database";
 			sourceTree = "<group>";
@@ -99,11 +137,12 @@
 				TargetAttributes = {
 					2DC4B80129E67B8D000F2022 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
 			buildConfigurationList = 2DC4B7FD29E67B8D000F2022 /* Build configuration list for PBXProject "Exam Local Database" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,9 +177,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC4B82629E67C98000F2022 /* FMDatabaseQueue.m in Sources */,
+				2DC4B82729E67C98000F2022 /* FMDatabasePool.m in Sources */,
 				2DC4B80A29E67B8D000F2022 /* ViewController.swift in Sources */,
+				2DC4B82F29E689D9000F2022 /* MyTableViewCell.swift in Sources */,
+				2DC4B82829E67C98000F2022 /* FMDatabase.m in Sources */,
 				2DC4B80629E67B8D000F2022 /* AppDelegate.swift in Sources */,
+				2DC4B82D29E68829000F2022 /* ViewController2.swift in Sources */,
+				2DC4B82B29E67D1B000F2022 /* fmdb Helper.swift in Sources */,
 				2DC4B80829E67B8D000F2022 /* SceneDelegate.swift in Sources */,
+				2DC4B82929E67C98000F2022 /* FMResultSet.m in Sources */,
+				2DC4B82529E67C98000F2022 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3D7UQM8T2A;
@@ -303,6 +351,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dipika.Exam-Local-Database";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Exam Local Database/Exam Local Database-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3D7UQM8T2A;
@@ -331,6 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dipika.Exam-Local-Database";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Exam Local Database/Exam Local Database-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
