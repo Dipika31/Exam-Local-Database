@@ -45,7 +45,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Delete Data"/>
                                 <connections>
-                                    <action selector="addDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcd-4G-gBB"/>
                                     <action selector="deleteDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbx-aG-dE4"/>
                                 </connections>
                             </button>
@@ -56,8 +55,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Get Data"/>
                                 <connections>
-                                    <action selector="addDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rgd-WY-L8I"/>
-                                    <action selector="deleteDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9VY-1Z-Gx1"/>
                                     <action selector="getDataButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHO-4t-hEA"/>
                                 </connections>
                             </button>

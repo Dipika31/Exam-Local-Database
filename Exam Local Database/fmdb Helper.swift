@@ -56,7 +56,7 @@ class FMDB
                 arr.append(object)
             }
         }
-        return arr
+        return arr 
     }
     
     static func deleteData(id:Int)
